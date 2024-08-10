@@ -1,32 +1,95 @@
-body{
-    background-color: rgb(133, 195, 195);
-    margin: 0;
+:root{
+    --color-roange:orangered;
+    --color-dark:#2a2a2a;
+    
+    --body-bg:rgb(73, 155, 206);
+    --text-color:var(--color-dark);
+}
+html{
+    /* scroll-behavior: smooth; */
 }
 *{
     box-sizing: border-box;
 }
-.wrapper{
-    flex-direction: column;
-    /* background-color: antiquewhite; */
-    padding: 10px;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    margin: 0 auto;
+body{
+    margin: 0;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    position: sticky;
-    background-color: rgb(133, 195, 195);
-    border: 10px;
-    top: 0;
+.container{
+    width: 80%;
+    margin: auto;
 }
-.hero-section{
+.flex{
     display: flex;
-    justify-content: space-between;
-    background-color: red;
+    gap: 1rem;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
 }
+.grid{
+    display: grid;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* .joti-one-regular{
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+.wrapper{
+    background: var(--body-bg);
+    min-height: 100vh;
+}
+/* <!-- dark mode tooggler --> */
+        /* <!-- navbar --> */
+        header{
+            box-shadow: 4PX -2PX 40PX 9PX rgb(180, 177, 177);
+            position: sticky;
+            top: 0;
+            background-color:var(--body-bg);
+        }
+            header .header{
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 0;
+            }
+            .logo{
+                font-size: 1.3rem;
+                position: relative;
+            }
+            .logo :first-child{
+                font-weight: bold;
+                margin-right: 1rem;
+
+                /* font-family: "Joti One", serif;
+                font-weight: 400;
+                font-style: normal; */
+            }
+            .line::before{
+                content: "";
+                background: var(--color-roange);
+                width: 4px;
+                height: 100%;
+
+                position: absolute;
+                left: 24%;
+            }
+            .navigation{
+                list-style: none;
+                font-weight: bold;
+            }
+            .navigation li:hover{
+                color: var(--color-roange);
+                transition: all 0.3s;
+            }
+        /* <!-- hero section --> */
+        /* <!-- banner section --> */
+        /* <!-- skills section --> */
+        /* <!-- projects section --> */
+        /* <!-- about section --> */
+        /* <!-- contact section --> */
+        /* <!-- footer section --> */

@@ -4,11 +4,14 @@
     
     --body-bg:rgb(73, 155, 206);
     --text-color:var(--color-dark);
+    --border-color:var(--color-dark);
 
     --dark-bg: var(--color-dark);
     --dark-text-color:white;
+    --dar-border-color:white;
 
     --shadow:4PX -2PX 40PX 9PX rgb(180, 177, 177);
+
 }
 html{
     /* scroll-behavior: smooth; */
@@ -110,7 +113,7 @@ header .header{
 #toggle:checked +.wrapper{
     --body-bg: var(--dark-bg);
     color: var(--dark-text-color);
-    
+    --border-color: var(--dar-border-color);
 }
 #toggle{
     display: none;
@@ -160,6 +163,41 @@ header .header{
     height: 100%;
 }
 /* <!-- banner section --> */
+
+.banner{
+    margin-top: 7rem;
+    border: 2px solid var(--border-color);
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    border-radius: 50px;
+
+    justify-content: space-between;
+    flex:wrap;
+    align-items: center;
+
+}
+
+.info-content .icon-container{
+    background: var(--color-roange);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+}
+.info-content div span{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+}
+.info-content div p{
+    color:var(--color-roange);
+}
+.info-divider{
+    background: grey;
+    width: 2px;
+    height: 70px;
+}
 /* <!-- skills section --> */
 /* <!-- projects section --> */
 /* <!-- about section --> */

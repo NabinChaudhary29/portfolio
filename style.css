@@ -317,12 +317,12 @@ footer{
     min-height: 30vh;
     background: black;
     color: white;
-    margin-top: 5rem;
+    margin-top: 3rem;
     flex-direction: column;
 
 }
 footer .top{
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap: 5rem;
 }
 footer .top ul{

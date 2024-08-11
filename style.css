@@ -14,7 +14,7 @@
 
 }
 html{
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
@@ -129,6 +129,7 @@ header .header{
 .hero-section{
     margin-top: 5rem;
     max-height: 60vh;
+    padding-top: 8rem;
 }
 .hero{
     background-color: var(--color-roange);
@@ -172,7 +173,7 @@ header .header{
 /* <!-- banner section --> */
 
 .banner{
-    margin-top: 7rem;
+    margin-top: 15rem;
     border: 2px solid var(--border-color);
     box-shadow: var(--shadow);
     padding: 2rem;
@@ -207,6 +208,7 @@ header .header{
 }
 /* <!-- skills section --> */
 .skills{
+    padding-top: 7rem;
     margin-top: 5rem;
 }
 .skills-container{
@@ -223,6 +225,7 @@ header .header{
 }
 /* <!-- projects section --> */
 .projects{
+    padding-top: 7rem;
     margin: 5rem;
 }
 .projects .project-container{
@@ -279,7 +282,7 @@ header .header{
 
 /* <!-- contact section --> */
 .contact{
-    padding: 3rem 0;
+    padding: 7rem 0;
     width: 300px;
     margin: auto;
     margin-top: 2rem;
@@ -328,4 +331,18 @@ footer .top ul{
 }
 footer .top ul li{
     line-height: 1.5rem;
+}
+
+/* go up */
+
+.goUp{
+    background: var(--color-roange);
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    /* padding: 0.2rem; */
+    border-radius: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
 }

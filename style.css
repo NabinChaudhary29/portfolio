@@ -132,7 +132,7 @@ header .header{
 /* <!-- hero section --> */
 .hero-section{
     margin-top: 5rem;
-    max-height: 60vh;
+    max-height: 600px;
     padding-top: 8rem;
 }
 .hero{
@@ -177,10 +177,10 @@ header .header{
 /* <!-- banner section --> */
 
 .banner{
-    margin-top: 15rem;
+    margin-top: 5rem;
     border: 2px solid var(--border-color);
     box-shadow: var(--shadow);
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 50px;
     /* position: fixed; */
 
@@ -213,7 +213,7 @@ header .header{
 }
 /* <!-- skills section --> */
 .skills{
-    padding-top: 7rem;
+    padding-top: 3rem;
     margin-top: 5rem;
 }
 .skills-container{
@@ -231,7 +231,7 @@ header .header{
 }
 /* <!-- projects section --> */
 .projects{
-    padding-top: 7rem;
+    padding-top: 3rem;
     margin: 5rem;
     width: auto;
 }
@@ -256,7 +256,7 @@ header .header{
     /* background-image: url(assets/bg.jpg); */
     margin-top: 5rem;
     background: rgba(76, 205, 50, 0.496);
-    padding: 7rem 0;
+    padding: 3rem 0;
 }
 .about-content{
     background-image: url(assets/bg.jpg);
@@ -296,13 +296,13 @@ header .header{
 
 /* <!-- contact section --> */
 .contact{
-    padding: 7rem 0;
-    width: 300px;
+    padding: 3rem 0;
+    /* width: 300px; */
     margin: auto;
     margin-top: 2rem;
 }
 .contact .social{
-    font-size: 3rem;
+    font-size: 7rem;
     justify-content: space-between;
 }
 .contact h3{

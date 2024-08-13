@@ -213,6 +213,7 @@ header .header{
     margin-top: 5rem;
 }
 .skills-container{
+    /* flex-direction: column; */
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -228,6 +229,7 @@ header .header{
 .projects{
     padding-top: 7rem;
     margin: 5rem;
+    width: auto;
 }
 .projects .project-container{
     grid-template-columns: repeat(3,1fr);
@@ -409,6 +411,25 @@ footer .top ul li{
     }
 
     .info-divider{
+        display: none;
+    }
+
+
+    /* skills */
+    .skills-container{
+        flex-direction: column;
+        /* justify-content: space-between;
+        flex-wrap: wrap; */
+    }
+
+    .skills-container > div :hover{
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        transform: scale(2);
+        gap: 40px;
+        /* transition: all 0.3s ease-in-out; */
+    }
+    .skills-container span{
         display: none;
     }
 
